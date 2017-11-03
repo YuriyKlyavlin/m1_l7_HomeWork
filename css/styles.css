@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
+* {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-size: 28px;
+}
+.paragraph {
+	font-size: 18px;
+}
+.first_letter:first-letter {
+	font-family: Playfair Display, Arial, Sans-serif;
+	font-size: 110px;
+	color: #222;
+	float: left;
+	margin: 30px 23px 20px 0;
+}
+.b-border {
+	margin: 130px 100px;
+	box-shadow: 0 0 68px 30px rgba(0, 0, 0, 0.07);
+}
+.b-container {
+	padding: 121px;
+}
+h1 {
+	font-family: Playfair Display, Arial, Sans-serif;
+	font-size: 42px;
+	font-weight: 400;
+	margin-bottom: 18px;
+}
+.paragraph {
+	font-family: Lato, Arial, Sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: #5C5C5C;
+	line-height: 35px;
+	margin-bottom: 30px;
+}
+quote {
+	font-family: Lato, Arial, Sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	font-style: italic;
+	color: #5C5C5C;
+}
+quote:before {
+	content: "“";
+	font-family: Lato, Arial, Sans-serif;
+	font-size: 60px;
+	font-weight: 300;
+	font-style: italic;
+	color: #5C5C5C;
+	margin-right: 25px;
+}
+.button {
+	display: block;
+	text-decoration: none;
+	user-select: none;
+	font-family: Lato, Arial, Sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #EAA258;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-align: center;
+	padding: 25px 25px;
+	width: 210px;
+	border: 2px solid #EAA258;
+	margin-top: 30px;
+}
+.button:hover {
+	background-color: #EAA258;
+	color: #fff;
+	transition: all .1s linear;
+}
